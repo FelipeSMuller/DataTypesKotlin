@@ -52,5 +52,25 @@ fun main() {
 
 	//Output: 9223372036854775807  && -9223372036854775807 
 
+	//Ponto flutuante.
+	
+	//O Kotlin considera como Double, mesmo ao declarar como Float.
+	val myNumber = 3.42;
+	
+	//Agora reconhece como float.
+	val myNumber2 = 3.4f;
+
+	//Double tem mais precisão no cálculo.
+	
+	
+	print("Double : $myNumber \nFloat : $myNumber2")
+	
+	//Char e Boolean --------------------------------
+	
+	val booleanValue = true;
+	val charValue : Char = 'F';
+	
+	print("\nChar value : $charValue \nBoolean value : $booleanValue");
+
 
 }
